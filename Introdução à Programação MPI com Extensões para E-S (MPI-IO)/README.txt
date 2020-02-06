@@ -1,0 +1,5 @@
+----------Resumo
+Na Computação de Alto Desempenho (High-Performance Computing), as operações de entrada e saída (I/O) são um gargalo para um número crescente de aplicações, podendo comprometer a escalabilidade. Em ambientes de larga escala, como clusters e supercomputadores, o uso de bibliotecas de alto-nível como MPI-IO permite obter melhor desempenho através de I/O paralelo e de operações coletivas. Estas possibilitam o uso transparente de técnicas de otimização como data sieving e two-phase I/O. Nesse contexto, este minicurso objetiva introduzir conceitos de I/O paralelo e MPI-IO, com um enfoque prático, de forma que os participantes aprendam a utilizar a biblioteca em suas aplicações. Pré-requisitos: - Conhecimentos básicos sobre conceitos MPI: - processos, ranks - comunicadores - operações bloqueantes e não bloqueantes (troca de mensagem) - operações individuais e coletivas (troca de mensagem) - MPI datatypes
+
+----------Participantes
+André Carneiro

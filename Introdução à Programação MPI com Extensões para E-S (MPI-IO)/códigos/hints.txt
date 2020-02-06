@@ -1,0 +1,8 @@
+cb_buffer_size 33554432
+romio_cb_read false
+romio_cb_write false
+cb_nodes 0
+ind_rd_buffer_size 8388608
+ind_wr_buffer_size 1048576
+romio_ds_read false
+romio_ds_write false
