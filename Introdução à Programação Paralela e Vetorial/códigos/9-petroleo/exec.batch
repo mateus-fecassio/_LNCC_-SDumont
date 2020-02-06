@@ -1,0 +1,23 @@
+#!/bin/bash
+#SBATCH --nodes=1                      #Numero de Nós
+#SBATCH --ntasks-per-node=1            #Numero de tarefas por Nó
+#SBATCH --ntasks=1                     #Numero total de tarefas MPI
+#SBATCH --cpus-per-task=4              #Numero de threads
+#SBATCH -p treinamento                 #Fila (partition) a ser utilizada
+#SBATCH --time=5:00                   #Tempo do job
+
+#Exibe os nós alocados para o Job
+echo "Running on $SLURM_JOB_NODELIST"
+
+cd $SLURM_SUBMIT_DIR
+
+#Configura os compiladores
+module load intel_psxe/2019
+
+#Configura o executavel
+EXEC="$SCRATCH/9-petroleo.exec TIPO_EQUACAO=0 N1_GLOBAL=512 N2_GLOBAL=512 N3_GLOBAL=512 D1=10 D2=10 D3=10 DT=0.0005 NTSTEP=1 VP_DEF=3000 RHO_DEF=1.0 VERBOSE=5 FC=45 INT_SNAPSHOT=1000 SRC1=64 SRC2=64 SRC3=64"
+
+#configura o numero de threads, de acordo com o parametro definido no Slurm
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+
+srun -N 1 -c $SLURM_CPUS_PER_TASK $EXEC
