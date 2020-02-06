@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH --nodes=1                      #Numero de Nós
+#SBATCH --ntasks-per-node=1            #Numero de tarefas por Nó
+#SBATCH --ntasks=1                     #Numero total de tarefas MPI
+#SBATCH -p treinamento_gpu             #Fila (partition) a ser utilizada
+#SBATCH -J testeACC		       #Nome job
+#SBATCH --exclusive                    #Utilização exclusiva dos nós durante a execução do job
+
+#Exibe os nós alocados para o Job
+echo $SLURM_JOB_NODELIST
+nodeset -e $SLURM_JOB_NODELIST
+
+cd $SLURM_SUBMIT_DIR
+
+srun --resv-ports -n $SLURM_NTASKS nvidia-smi
+echo "===================="
+srun --resv-ports -n $SLURM_NTASKS pgaccelinfo
+echo "===================="
+srun --resv-ports -n $SLURM_NTASKS pgcpuid

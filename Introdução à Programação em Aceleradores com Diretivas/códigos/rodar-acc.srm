@@ -1,0 +1,27 @@
+#!/bin/bash
+#SBATCH --nodes=1                      #Numero de Nós
+#SBATCH --ntasks-per-node=1            #Numero de tarefas por Nó
+#SBATCH --ntasks=1                     #Numero total de tarefas MPI
+#SBATCH --cpus-per-task=24             #Numero de threads
+#SBATCH -p treinamento_gpu             #Fila (partition) a ser utilizada
+#SBATCH -J testeACC		       #Nome job
+#SBATCH --exclusive                    #Utilização exclusiva dos nós durante a execução do job
+#SBATCH --time=00:05:00	
+
+exec=NOME_EXECUTAVEL
+
+# necessário para o SLURM
+nodeset -e $SLURM_JOB_NODELIST
+# permite que o diretório da submissão seja utilizado
+cd $SLURM_SUBMIT_DIR
+
+# carrega ambiente do compilador (só por garantia)
+module load pgi/compilers-19.10
+
+#configura o numero de threads, de acordo com o parametro definido no Slurm
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+# se quiser rodar sequencial trocar 24 por 1 na configuração no início do arquivo!
+
+echo "executando $exec"
+echo '============================'
+srun  -N 1 -c $SLURM_CPUS_PER_TASK /usr/bin/time -p ./$exec
