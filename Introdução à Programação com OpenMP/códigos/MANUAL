@@ -1,0 +1,32 @@
+ I- Para a submissão na Sdumont:            
+
+     sbatch run.sh NUMERO_DE_THREADS EXECUTÁVEL                
+
+
+ II- Para a visualização dos Jobs:           
+
+      squeue -u $USER                        
+
+      ou                                      
+
+      watch squeue -u $USER 
+
+      (modo de visão em tela cheia, para sair CTRL+C)           
+
+
+
+ III- Para cancelar o Job:                    
+
+      scancel NUMERO_DO_JOB                   
+
+
+ IV- Para compilar:
+
+      ./compilar.sh
+
+
+ Obs: 
+
+   1. Para os scripts com o nome 'run-arg.sh', é necessário passar um parâmetro
+
+      Ex: sbatch run-arg.sh NUMERO_DE_THREADS EXECUTÁVEL PARÂMETRO
