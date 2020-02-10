@@ -2,41 +2,41 @@
 Escola Supercomputador SDumont, realizada entre os dias 03/02 a 07/02, do Programa de Verão de 2020, promovido pelo LNCC em Petrópolis - RJ. 
 
 ## IMPORTANTE:
-
+Nenhum conteúdo presente neste repositório é de minha autoria, exceção feita para as observações contidas em algumas pastas. Os devidos créditos, se fizerem necessários, deverão estar presentes nos slides de apresentação de cada curso. 
 
 ### Coordenadores:
 <p>Abimael Fernando Dourado Loula - Laboratório Nacional de Computação Científica - LNCC - aloc@lncc.br</p>
 <p>Abimael Fernando Dourado Loula - Laboratório Nacional de Computação Científica - LNCC - aloc@lncc.br</p>
 <p>Sandra Mara Cardoso Malta - Laboratório Nacional de Computação Científica - LNCC - smcm@lncc.br</p>
 
-## Comitê Organizador:
+### Comitê Organizador:
 <p>Fábio Lima Custódio - Laboratório Nacional de Computação Científica - LNCC - flc@lncc.br</p>
 <p>Fabio Andre Machado Porto - Laboratório Nacional de Computação Científica - LNCC - fporto@lncc.br</p>
 <p>Carla Osthoff Ferreira de Barros - Laboratório Nacional de Computação Científica - LNCC - osthoff@lncc.br</p>
 <p>Marcos Garcia Todorov - Laboratório Nacional de Computação Científica - LNCC - todorov@lncc.br</p>
 
-## Instituições Envolvidas:
+### Instituições Envolvidas:
 <p>Laboratório Nacional de Computação Científicaç</p>
 <p>Sociedade de Computação Científica.</p>
 
-## Local:
+### Local:
 LNCC
 
-## Endereço:
+### Endereço:
 Av. Getúlio Vargas, 333
 
-## Telefone:
+### Telefone:
 24 22336150
 
-## Contato:
+### Contato:
 Roberta Machado - mroberta@lncc.br
 
-## Apoio Financeiro:
+### Apoio Financeiro:
 <p>CNPq
 <p>NVIDIA
 <p>ATOS
 
-## Professores:
+### Professores:
 <p>Aaron Bruno Leão - LNCC</p>
 <p>Alfredo Eurico Rodrigues Matta - UNBE</p>
 <p>André Carneiro - LNCC</p>
