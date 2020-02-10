@@ -4,7 +4,6 @@ Escola Supercomputador SDumont, realizada entre os dias 03/02 a 07/02, do Progra
 Coordenadores:
 
 Abimael Fernando Dourado Loula - Laboratório Nacional de Computação Científica - LNCC - aloc@lncc.br
-
 Sandra Mara Cardoso Malta - Laboratório Nacional de Computação Científica - LNCC - smcm@lncc.br
 
 Comitê Organizador:
