@@ -1,0 +1,3 @@
+OpenACC: acelera o seu código  
+
+OpenMP: paralelisa melhor o seu código
