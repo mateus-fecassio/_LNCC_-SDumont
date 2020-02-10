@@ -4,9 +4,6 @@ Escola Supercomputador SDumont, realizada entre os dias 03/02 a 07/02, do Progra
 ## IMPORTANTE:
 Nenhum conteúdo presente neste repositório é de minha autoria, exceção feita para as observações contidas em algumas pastas. Os devidos créditos, se fizerem necessários, deverão estar presentes nos slides de apresentação de cada curso.
 
-
-
-
 ### Coordenadores:
 <p>Abimael Fernando Dourado Loula - Laboratório Nacional de Computação Científica - LNCC - aloc@lncc.br</p>
 <p>Abimael Fernando Dourado Loula - Laboratório Nacional de Computação Científica - LNCC - aloc@lncc.br</p>
@@ -17,7 +14,6 @@ Nenhum conteúdo presente neste repositório é de minha autoria, exceção feit
 <p>Fabio Andre Machado Porto - Laboratório Nacional de Computação Científica - LNCC - fporto@lncc.br</p>
 <p>Carla Osthoff Ferreira de Barros - Laboratório Nacional de Computação Científica - LNCC - osthoff@lncc.br</p>
 <p>Marcos Garcia Todorov - Laboratório Nacional de Computação Científica - LNCC - todorov@lncc.br</p>
-
 
 ### Instituições Envolvidas:
 <p>Laboratório Nacional de Computação Científicaç</p>
