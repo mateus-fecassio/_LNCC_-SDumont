@@ -1,0 +1,16 @@
+- a lei de Moor parou em 2004 para o processamento serial. Os esforços agora de hardware estão concentrados em aplicações paralelas
+- ASIC / FPGA / DSP / RAID / IO
+- escolher uma linguagem (ou uma biblioteca ou um paradigma)
+- escolher algo que tenha uma comunidade forte envolvida
+- OpenMP: é uma maneira muito eficiente de paralelizar o seu código se o seu dado já está perto de você
+- OpenACC em vez de CUDA, uma vez que este têm muitas atualizações e seu código pode não ser portável em algum tempo
+- habilidade de transferência de dados na programação paralela utilizando o MPI é algo importante 
+- MPI foca em nós espalhados entre os PCs
+- OpenMP: foca em um único core de uma máquina
+- Hybrid MPI + OpenMP -> importante (hybrid computing)!
+
+Frameworks:
+- charm ++
+- tensorflow
+
+- performance paralea é medida pela escalabidade real x ideal	
