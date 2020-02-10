@@ -2,18 +2,28 @@
 Escola Supercomputador SDumont, realizada entre os dias 03/02 a 07/02, do Programa de Verão de 2020, promovido pelo LNCC em Petrópolis - RJ. 
 
 Coordenadores:
+
 Abimael Fernando Dourado Loula - Laboratório Nacional de Computação Científica - LNCC - aloc@lncc.br
 
 Sandra Mara Cardoso Malta - Laboratório Nacional de Computação Científica - LNCC - smcm@lncc.br
+
 Comitê Organizador:
+
 Fábio Lima Custódio - Laboratório Nacional de Computação Científica - LNCC - flc@lncc.br
+
 Fabio Andre Machado Porto - Laboratório Nacional de Computação Científica - LNCC - fporto@lncc.br
+
 Carla Osthoff Ferreira de Barros - Laboratório Nacional de Computação Científica - LNCC - osthoff@lncc.br
+
 Marcos Garcia Todorov - Laboratório Nacional de Computação Científica - LNCC - todorov@lncc.br
+
 Instituições Envolvidas:
 Laboratório Nacional de Computação Científica
+
 Sociedade de Computação Científica
+
 Local:
+
 LNCC
 
 Endereço:
